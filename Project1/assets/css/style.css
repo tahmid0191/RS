@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav */
+.navbar{
+    box-shadow: 0 0 8px;
+}
+.navbar .navbar-toggler{
+    font-size: 1rem;
+}
+.navbar .collapse .navbar-nav .nav-item{
+    margin: auto;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: green;
+}
+/* nav */
+
+
+/* home */
+.home{
+    padding-bottom: 20px;
+}
+.home .row .home-text{
+    margin-left: 50px;
+}
+.home .row .home-text h1{
+    font-size: 56px;
+    color:green;
+    font-weight: bold;
+}
+.home .row .home-text h2{
+    font-size: 42px;
+    padding-top: 10px;
+}
+/* home */
+
+
+/* about */
+.about{
+    padding-bottom: 20px;
+}
+.about .col-md-6{
+    padding-top: 15px;
+}
+.about .row .about-text{
+  text-align: center;
+}
+.about .row .about-text span{
+    color: green;
+    font-size: 18px;
+}
+.about .row .about-text h2{
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.about .row .about-text p{
+    padding-top: 20px;
+}
+/* about */
+
+
+/* services */
+.services{
+    padding-top: 150px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.services span{
+    color: green;
+    font-size: 18px;
+}
+.services h2{
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.services .row .col-md-3{
+    padding-top: 50px;
+}
+.services .row .col-md-3 .service-item{
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0 0 8px;
+    border-radius: 5px;
+}
+.services .row .col-md-3 h1{
+    font-size: 50px ;
+    color: green;
+}
+.services .row .col-md-3 h4{
+    font-weight: bold;
+    padding-top: 15px;
+}
+.services .row .col-md-3 p{
+    padding-top: 10px;
+}
+
+
+/* services */
+
+
+/* manu */
+.manu{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.manu span{
+    color: green;
+    font-size: 18px;
+}
+.manu h2{
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.manu .row .col-md-3{
+    text-align: center;
+    padding-top: 50px;
+}
+.manu .row .card{
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0 0 8px;
+    border-radius: 5px;
+}
+.manu .row .card .card-img-top{
+    height: 200px;
+    width: 200px;
+}
+.manu .row .card h3{
+    padding-top: 10px;
+}
+.manu .row .card h5{
+    padding-top: 10px;
+}
+
+/* manu */
+
+
+/* app */
+.app{
+    padding: 60px;
+}
+.app .row .app-text span{
+    color: green;
+    font-size: 18px;
+}
+.app .row .app-text h2{
+    font-weight: bold;
+    padding-top: 15px;
+}
+.app .row .app-text p{
+    padding-top: 20px;
+}
+
+     
+.app .row .app-text .app-pic a img{
+    width: 200px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+/* app */
+
+
+/* contact */
+.contact{
+    padding-top: 70px;
+}
+.contact .row .contact-text span{
+    color: green;
+    font-size: 18px;
+}
+.contact .row .contact-text h2{
+    font-weight: bold;
+    padding-top: 15px;
+}
+.contact .row .contact-text p{
+    padding-top: 20px;
+}
+/* contact */
+
+/* footer */
+.footer{
+    padding-top: 100px;
+}
+.footer .row h1 a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+.footer .row .col-md-3{
+    padding-top: 15px;
+}
+.footer .row .col-md-3 .footer-icon{
+    padding-top: 10px;
+}
+.footer .row .footer-icon a{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color:black;
+}
+.footer .row .footer-icon a:hover{
+    color: green;
+}
+.footer .row ul{
+    list-style: none;
+}
+.footer .row ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.footer .row ul li a:hover{
+    color: green;
+}
+.footer .row ul li:hover{
+    color: green;
+}
+.footer p{
+    padding-top: 70px;
+    text-align: center;
+}
+
+/* footer */
